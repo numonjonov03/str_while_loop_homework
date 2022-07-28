@@ -9,7 +9,7 @@ def main(s):
     k=0
     i=0
     while len(s)>i:
-        if s[i].islower():
+        if not s[i].isalnum() and not [i].isspace():
             k+=1
         i+=1
     return k
