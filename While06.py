@@ -10,7 +10,8 @@ def main(s):
     k=0
     i=0
     while len(s)>i:
-        if  s[i].isalpha() and (s[i]!="a" or s[i]!="u" or s[i]!="e" or s[i]!="i" or s[i]!="o" or s[i]!="o'" or s[i]!="A" or s[i]!="U" or s[i]!="E" or s[i]!="I" or s[i]!="O" or s[i]!="O'"):
+        if  s[i].isalpha() and (s[i]!="a" and s[i]!="u" and s[i]!="e" and s[i]!="i" and s[i]!="o" and s[i]!="o'" and s[i]!="A" and s[i]!="U" and s[i]!="E" and s[i]!="I" and s[i]!="O" and s[i]!="O'"):
             k+=1
         i+=1
     return k
+print(main("codeschooluz"))
